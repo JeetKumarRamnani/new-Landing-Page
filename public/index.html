@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 2</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <header class="top-header">
+    <div class="nav-logo-btn">
+      <div class="nav-logo">
+        <nav class="nav-links">
+          <div class="logo-container">
+            <img src="./media/logo.svg" alt="logo" class="logo" />
+          </div>
+          <ul>
+            <li><span class="page-1-link">Pages</span> <i class="fa-solid fa-angle-down navlink-icon"></i></li>
+            <li><i class="fa-solid fa-border-all navlink-icon"></i><span class="page-link">Categories</span></li>
+            <li><i class="fa-regular fa-newspaper navlink-icon"></i><span class="page-link">Blog</span></li>
+            <li><i class="fa-regular fa-star-half-stroke navlink-icon"></i><span class="page-link">Reviews</span></li>
+            <li><i class="fa-solid fa-cart-shopping navlink-icon"></i><span class="page-link">Buying Guides</span< /li>
+          </ul>
+        </nav>
+      </div>
+
+      <button class="signup-btn">
+        <i class="fa-sharp fa-regular fa-envelope"></i>
+        <a href="#">Sign up</a>
+      </button>
+    </div>
+  </header>
+
+  <main class="main-container">
+    <!-- HERO SECTION START -->
+    <div class="main-img-info">
+      <section class="hero-section">
+        <img src="./media/hero-main.svg" alt="hero-section-image" />
+        <div class="hero-info-section">
+          <p class="main-content">
+            Introducing Affiliate Template for Webflow
+          </p>
+          <h1 class="main-content">
+            Easy-to-use Template for building Affiliate Sites
+          </h1>
+          <p class="main-content">
+            <strong>Affiliate</strong> is a Webflow template made for
+            entrepreneurs who want a professional and polished site ready to
+            start and grow their affiliate marketing business in any niche.
+          </p>
+          <button class="main-content">Buy this Template</button>
+        </div>
+      </section>
+    </div>
+    <!-- HERO SECTION END -->
+
+    <!-- Articles Area Start -->
+
+    <section class="articles-container">
+      <h2 class="article-titles">Latest from this Blog</h2>
+      <article class="all-articles">
+        <article class="article-1">
+          <img src="./media/hero-1.jpg" alt="hero-1" class="hero-1" />
+          <h2>How to Prep Your Lawn in the Spring</h2>
+          <p class="article-1-desc">
+            This is the blog description text.This is the blog description
+            text.This is the blog description text.
+          </p>
+        </article>
+        <article class="article-2-3-4">
+          <article class="article-2">
+            <img src="./media/hero-2.jpg" alt="hero-1" class="hero-2" />
+            <p class="article-desc">Secrets to Know About Hedge Trimming</p>
+          </article>
+          <article class="article-3">
+            <img src="./media/hero-3.jpg" alt="hero-1" class="hero-3" />
+            <p class="article-desc">What to Do With a Dying Tree</p>
+          </article>
+          <article class="article-4">
+            <img src="./media/hero-4.jpg" alt="hero-1" class="hero-4" />
+            <p class="article-desc">Which Flowers Should You Plant Garden</p>
+          </article>
+        </article>
+      </article>
+      <a class="link" href="#"><i class="fa-solid fa-caret-right"></i>View All Blog Articles</a>
+    </section>
+
+    <!-- Articles Area End -->
+
+    <!-- BEST PRODUCT SECTION STARTS-->
+
+    <section class="best-products">
+      <p>
+        <i class="fa-solid fa-screwdriver-wrench"></i><span>View out list of the best products in lawncare</span>
+      </p>
+      <button>See the list</button>
+    </section>
+
+    <!-- BEST PRODUCTS SECTION ENDS -->
+
+    <!-- REVIEWS CONTAINER START -->
+
+    <section class="reviews-container">
+      <h2>Latest Product Reviews</h2>
+      <section class="reviews">
+        <div class="review-1 review-content">
+          <img src="./media/review-1.jpg" alt="review-product-1" />
+          <span>Lawns</span>
+          <div class="review-text">
+            <h3>Lawnmower Xtreme</h3>
+            <p>
+              This is the Review Snippet.This is the Review Snippet.This is
+              the Review Snippet.This is the Review Snippet.
+            </p>
+          </div>
+        </div>
+        <div class="review-2 review-content">
+          <img src="./media/review-2.jpg" alt="review-product-1" />
+          <span>Garden</span>
+          <div class="review-text">
+            <h3>Ultra Grow Fertilizer</h3>
+            <p>
+              This is the Review Snippet.This is the Review Snippet.This is
+              the Review Snippet.This is the Review Snippet.
+            </p>
+          </div>
+        </div>
+        <div class="review-3 review-content">
+          <img src="./media/review-3.jpg" alt="review-product-1" />
+          <span>Hedges</span>
+          <div class="review-text">
+            <h3>Hedge Clippers</h3>
+            <p>
+              This is the Review Snippet.This is the Review Snippet.This is
+              the Review Snippet.This is the Review Snippet.
+            </p>
+          </div>
+        </div>
+      </section>
+      <a class="link" href="#"><i class="fa-solid fa-caret-right"></i>View All Product Reviews</a>
+    </section>
+
+    <!-- REVIEWS CONTAINER ENDS -->
+
+    <!-- NEWSLETTER CONTAINER STARTS -->
+
+    <section class="newsletter-container">
+      <img src="media/newsletter.svg" alt="newsletter-image" />
+      <div class="newsletter-signup-box">
+        <div><i class="fa-sharp fa-regular fa-envelope"></i></div>
+        <h3>Newsletter Signup</h3>
+        <p>
+          Be the first to receive updates on articles,product reviews,courses,
+          and more!
+        </p>
+        <input type="email" placeholder="Your Email" />
+        <br />
+        <div>
+          <button>Submit</button>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER CONTAINER END -->
+
+    <!-- FOOTER STARTS -->
+    <footer class="footer">
+      <section class="footer-items">
+        <div class="first-sec footer-section-items">
+          <img src="media/logo.svg" alt="logo-footer" class="logo-footer" />
+          <div class="footer-social-icons">
+            <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-twitter"></i><i
+              class="fa-brands fa-instagram"></i>
+          </div>
+
+          <p class="footer-first-sec-text">
+            <strong>Affiliate</strong> is a Webflow template made for
+            entrepreneurs who want a professional and polished site ready to
+            start and grow their affiliate marketing business in any niche.
+          </p>
+        </div>
+        <section class="second-sec footer-section-items">
+          <h3>Latest Articles</h3>
+          <article class="footer-2nd-sec-article">
+            <img src="/media/hero-1.jpg" alt="footer-second-section-hero-2-icon" />
+            <p>How to Prep Your Lawn in the Spring</p>
+          </article>
+          <article class="footer-2nd-sec-article">
+            <img src="/media/hero-2.jpg" alt="footer-second-section-hero-2-icon" />
+            <p>Secrets to Know About Hedge Trimming</p>
+          </article>
+          <article class="footer-2nd-sec-article">
+            <img src="/media/hero-3.jpg" alt="footer-second-section-hero-2-icon" />
+            <p>What to Do With a Dying Tree</p>
+          </article>
+        </section>
+        <section class="third-section footer-section-items">
+          <h3>Browse</h3>
+          <div class="search-area">
+            <input type="search" /><button>Search</button>
+          </div>
+          <a href="#" class="footer-links">About</a>
+          <a href="#" class="footer-links">Categories</a>
+          <a href="#" class="footer-links">Tools</a>
+          <a href="#" class="footer-links">Contact</a><a href="#" class="footer-links">Privacy Policy</a>
+          <a href="#" class="footer-links">Affiliate Disclosure</a>
+
+          <hr />
+
+          <span><em>&#169;2023</em> Your Brand Name</span>
+        </section>
+      </section>
+    </footer>
+    <!-- FOOTER ENDS -->
+  </main>
+
+  <script src="https://kit.fontawesome.com/11332c7474.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
